@@ -42,3 +42,12 @@ By following these steps, we will get a good understanding of the data and be ab
 
 
 To evaluate a linear regression model, you can use the Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Mean Squared Error (MSE) metrics. These metrics provide an indication of how well the model fits the data, and they quantify the difference between the predicted values and the actual values in the target variable.
+
+
+In this code the following steps were taken to do the linear regression analysis:
+
+-I first split the data into target (y) and predictors (X)
+-Converted categorical variables to one-hot encoded variables
+-Fitted a linear regression model
+-Made predictions on the test data
+-Finally, i calculated evaluation metrics to obtain the MAE,RMSE and MSE
