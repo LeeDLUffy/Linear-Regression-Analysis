@@ -6,24 +6,33 @@ To perform EDA on the insurance dataset, we can start by:
 2.Understanding the variables:
 
 age: age of policyholder
+
 sex: gender of policyholder (male/female)
+
 bmi: Body Mass Index
+
 children: number of children/dependents covered by insurance policy
+
 smoker: whether the policyholder smokes or not (yes/no)
+
 region: the geographical region in which the policyholder resides
+
 charges: medical cost charged by the insurance company
 
 
 3.Data Summary:
 
 Get the number of observations, columns and data types
+
 Get the summary statistics of each column
 
 
 4.Data Visualization:
 
 Plot histograms and boxplots of each column to understand the distribution of each variable
+
 Use scatter plots and violin plots to understand the relationship between two variables
+
 Use bar plots, count plots, and pie charts to visualize categorical variables
 
 
@@ -35,6 +44,7 @@ Use boxplots and scatter plots to detect and analyze outliers
 6.Handle Missing Values:
 
 Check the presence of missing values in the dataset
+
 If any, fill the missing values with the mean or median, depending on the distribution of the data.
 
 
