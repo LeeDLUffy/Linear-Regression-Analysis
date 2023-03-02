@@ -47,7 +47,12 @@ To evaluate a linear regression model, you can use the Mean Absolute Error (MAE)
 In this code the following steps were taken to do the linear regression analysis:
 
 -I first split the data into target (y) and predictors (X)
+
 -Converted categorical variables to one-hot encoded variables
+
 -Fitted a linear regression model
+
 -Made predictions on the test data
+
 -Finally, i calculated evaluation metrics to obtain the MAE,RMSE and MSE
+
